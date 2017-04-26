@@ -1,0 +1,11 @@
+---
+applications:
+- name: test-command
+  memory: 512m
+  disk_quota: 512m
+  buildpack: binary_buildpack
+  stack: windows2012R2
+  health-check-type: none 
+  # set health-check-type: process for PCF 1.10
+  no-route: true        
+  path: bin\release\net45\win81-x64\publish 

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "net45": { 
+      "imports": "dnxcore50"
+    }
+  },
+  "runtimes": {
+    "win81-x64": {},
+  }
+}
