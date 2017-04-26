@@ -9,4 +9,4 @@ An example project to show one way to pass arguments to a process pushed to Clou
 1. `dotnet publish -c release`
 
 ## Push the app
-.\pushToCF.ps1 -appName foo -options '-c ".\test-command.exe --some args"'
+`PS C:\> .\pushToCF.ps1 -appName foo -options '-c ".\test-command.exe --some args"'`
